@@ -1,0 +1,555 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-07",
+  "issues": [
+    {
+      "id": "2026-10-27",
+      "date": "2026-10-27",
+      "status": "published",
+      "reviewedAt": "2026-10-27",
+      "title": "看一个可操作的面积课件，带走一个学习入口",
+      "intro": "先看真实作品，再看它解决的教学问题与制作工具。本期只选一份已实际打开的作品，不以案例数量为目标。",
+      "items": [
+        {
+          "id": "shape-tailor",
+          "type": "case",
+          "caseKind": "开源作品拆解",
+          "title": "图形裁缝铺：剪一剪、拼一拼，理解面积公式",
+          "author": "KidsLab / talkincode",
+          "summary": "一份可直接操作的五年级数学网页：把平行四边形裁开、平移拼成长方形，再用底和高计算面积。先观察变形过程，再解释面积为什么不变。",
+          "problem": "学生会套面积公式，却难以理解平行四边形怎样转化为长方形，以及转化前后面积为何不变。",
+          "takeaway": "把“播放动画”改成“学生先预测，再裁剪、拼合和解释”，让操作服务于面积不变的推理。",
+          "subjects": [
+            "小学数学"
+          ],
+          "tools": [
+            {
+              "name": "HTML / CSS / JavaScript",
+              "evidenceUrl": "https://github.com/talkincode/kidslab/tree/main/src/shape-tailor"
+            },
+            {
+              "name": "Canvas 图形绘制",
+              "evidenceUrl": "https://github.com/talkincode/kidslab/blob/main/src/shape-tailor/index.html"
+            }
+          ],
+          "methodNote": "编者按公开源码与实际操作整理。具体生成使用的 AI Agent 和提示词未公开，不推定为某款 AI 制作；未核实课堂应用成效。",
+          "steps": [
+            "先让学生预测：把左侧角片移到另一侧，面积会不会变？",
+            "打开作品，依次裁剪、平移拼合，再用底 8、高 5 核对面积。",
+            "换到自己的例题时，让学生解释拼补前后哪些量变了、哪些量没变。"
+          ],
+          "work": {
+            "url": "https://coollearn.talkincode.net/courseware/shape-tailor/index.html",
+            "verification": "opened",
+            "checkedAt": "2026-10-27",
+            "accessNote": "核实时无需登录；已实际打开并检查裁剪、平移拼合和面积 40 的报价反馈。源码可读，使用前仍需结合自己的教材与题目检查。",
+            "preview": {
+              "path": "/assets/daily-shape-tailor.png",
+              "alt": "图形裁缝铺真实界面：平行四边形裁剪并平移拼成长方形，显示底 8、高 5 和面积计算任务",
+              "caption": "2026.10.27 实际操作截图；非概念图。仅缩放展示，未改动作品内容。",
+              "creditUrl": "https://github.com/talkincode/kidslab",
+              "licenseUrl": "https://github.com/talkincode/kidslab/blob/main/LICENSE-CONTENT.md",
+              "licenseLabel": "CC BY 4.0"
+            }
+          },
+          "source": {
+            "name": "KidsLab 作者公开项目与作品",
+            "url": "https://github.com/talkincode/kidslab",
+            "publishedDate": null,
+            "publishedDateNote": "项目未单列本作品首发日期",
+            "verifiedAt": "2026-10-27",
+            "verification": "verified"
+          }
+        },
+        {
+          "id": "teacher-ai-literacy",
+          "type": "resource",
+          "title": "国家智慧教育平台教师发展中心 · AI 素养专区",
+          "summary": "教育部 10 月 10 日现场会上，教师发展中心升级上线并启动教师人工智能素养全覆盖培训。可从官方平台查找学习资源，具体课程、登录及使用条件以平台当前页面为准。",
+          "takeaway": "先围绕备课、课堂或评价中的一个问题选学，再回到自己的教学材料中练习。",
+          "subjects": [
+            "跨学科"
+          ],
+          "resourceUrl": "https://jiaoshi.smartedu.cn/",
+          "accessLabel": "公共学习资源",
+          "source": {
+            "name": "教育部",
+            "url": "https://www.moe.gov.cn/jyb_zzjg/huodong/202610/t20261011_1453584.html",
+            "publishedDate": "2026-10-10",
+            "verifiedAt": "2026-10-27",
+            "verification": "verified"
+          }
+        }
+      ],
+      "headlineId": "shape-tailor",
+      "headlineTitle": "公式，能不能让学生自己拼出来？",
+      "headlineDeck": "先打开“图形裁缝铺”，看看平行四边形怎样剪开、拼合，再想想它能解决怎样的课堂问题。",
+      "editorNote": "案例的第一张图应当是实际成品。这个项目公开了作品和源码；我们检查了基本操作，同时把尚未公开的 AI 工具与课堂效果留在边界之外。",
+      "quickReads": [
+        {
+          "itemId": "shape-tailor",
+          "text": "真实可操作：裁开平行四边形，平移拼成长方形，解释面积为什么不变。"
+        },
+        {
+          "itemId": "teacher-ai-literacy",
+          "text": "需要系统补课时，再从国家平台的教师学习资源中选择一个具体主题。"
+        }
+      ],
+      "action": {
+        "title": "把一个公式，变成一次有理由的操作",
+        "steps": [
+          "先体验真实作品，记录学生需要做出的预测与解释。",
+          "打开源码，看看图形和按钮怎样实现；不把未公开的 Agent 猜成制作工具。",
+          "换成自己的教材例题，先检查数学与操作，再用于课堂。"
+        ]
+      },
+      "radarSnapshots": [
+        {
+          "id": "jiangsu-wusi-cases-2026",
+          "title": "江苏“五四杯”初中青年教师教育教学案例征集",
+          "provinces": [
+            "江苏"
+          ],
+          "city": "江苏省内",
+          "level": "省域征集",
+          "kind": "教学案例征集",
+          "target": "江苏初中教师；活动面向青年教师，具体资格以主办方确认为准",
+          "schoolStages": [
+            "初中"
+          ],
+          "eligibilityNote": "面向江苏初中教师；小学、高中教师不据此推定符合资格。",
+          "summary": "含 AI 教学案例、班会等类别；免费征集，11 月 8 日截止。",
+          "deliverables": [
+            "AI 教学实践案例文本，不超过 4000 字"
+          ],
+          "requirements": [
+            "原创、未发表或在其他活动获奖；匿名文档，学生使用化名。",
+            "扫码注册报名；投稿授权范围须阅读通知。"
+          ],
+          "dates": [
+            {
+              "label": "报名与案例文档上传截止",
+              "date": "2026-11-08",
+              "kind": "deadline"
+            },
+            {
+              "label": "结果公布（具体日期未定）",
+              "month": "2026-12",
+              "kind": "event"
+            }
+          ],
+          "source": {
+            "name": "江苏教育报刊总社通知 · 迎春中学公开转载",
+            "url": "https://yczx.wxedu.net/jyky/tzgg4/content_310009",
+            "publishedDate": "2026-09-07",
+            "originalNoticeDate": "2026-08-24",
+            "verifiedAt": "2026-10-27",
+            "verification": "verified"
+          },
+          "reviewedAt": "2026-10-27",
+          "status": "published"
+        }
+      ],
+      "editorialStandard": "teacher-first-v1"
+    },
+    {
+      "id": "2026-10-28",
+      "date": "2026-10-28",
+      "status": "published",
+      "reviewedAt": "2026-10-28",
+      "title": "分数披萨店：一张图，看懂三种数量写法",
+      "intro": "今天实际操作一份小学数学作品，看清分数、小数和百分数怎样联动。制作工具有源码依据，课堂效果不作推测。",
+      "items": [
+        {
+          "id": "fraction-pizzeria",
+          "type": "case",
+          "caseKind": "开源作品拆解",
+          "title": "分数披萨店：把分数、小数和百分数放在同一张图上",
+          "author": "KidsLab / talkincode",
+          "summary": "一个可操作的小学数学网页。改变吃掉的份数，披萨、巧克力条和数轴一起更新；实测由3/8调为4/8后，小数变为0.5，百分数变为50%，并给出约分结果1/2。",
+          "problem": "学生分别会做分数、小数和百分数的换算，却不容易把这几种写法理解为同一个数量。",
+          "takeaway": "先请学生预测变化，再操作核对，并说清整体不变时4/8为什么等于1/2。图形帮助表达理由，不能替代学生解释。",
+          "subjects": [
+            "小学数学"
+          ],
+          "tools": [
+            {
+              "name": "HTML / CSS / JavaScript",
+              "evidenceUrl": "https://raw.githubusercontent.com/talkincode/kidslab/main/src/fraction-lab/index.html"
+            },
+            {
+              "name": "SVG 图形与联动计算",
+              "evidenceUrl": "https://raw.githubusercontent.com/talkincode/kidslab/main/src/fraction-lab/main.js"
+            }
+          ],
+          "methodNote": "按作者公开源码与编者实际操作整理；未核实具体AI Agent、生成提示词、首发日期或真实课堂成效，不据此声称学生成绩提升。",
+          "steps": [
+            "先停在3/8，请学生预测：多吃掉一份后，分数、小数和百分数分别变成什么？",
+            "点击增加分子，核对4/8、0.5和50%，对照披萨、巧克力条与数轴。",
+            "请学生用自己的话说明4/8与1/2为何相等，再换一个分数检验。"
+          ],
+          "work": {
+            "url": "https://coollearn.talkincode.net/courseware/fraction-lab/index.html",
+            "verification": "opened",
+            "checkedAt": "2026-10-28",
+            "accessNote": "核实时无需登录，已实际点击增加分子并核对4/8、0.5、50%及1/2约分提示；只检查了基本操作，课前仍须试用与核对。",
+            "preview": {
+              "path": "/assets/daily-fraction-pizzeria.png",
+              "alt": "分数披萨店实际操作界面：4/8、0.5、50%与半个披萨、巧克力条和数轴联动显示",
+              "caption": "2026.10.28 实际操作截图；展示由3/8调整为4/8后的状态，未改动作品内容。",
+              "creditUrl": "https://github.com/talkincode/kidslab",
+              "licenseUrl": "https://github.com/talkincode/kidslab/blob/main/LICENSE-CONTENT.md",
+              "licenseLabel": "CC BY 4.0"
+            }
+          },
+          "source": {
+            "name": "KidsLab 作者公开项目与源码",
+            "url": "https://github.com/talkincode/kidslab",
+            "publishedDate": null,
+            "publishedDateNote": "项目未单列该作品首发日期",
+            "verifiedAt": "2026-10-28",
+            "verification": "verified"
+          }
+        }
+      ],
+      "headlineId": "fraction-pizzeria",
+      "headlineTitle": "分数披萨店：让三种数量写法一起变化",
+      "headlineDeck": "先预测，再调节份数，核对4/8、0.5和50%；请学生解释相同数量怎样有不同写法。",
+      "editorNote": "本期只选一份实际打开并操作的作品。已公开的源码可以继续研究；没有证据的AI制作过程和课堂成效留空。",
+      "quickReads": [
+        {
+          "itemId": "fraction-pizzeria",
+          "text": "实测4/8、0.5、50%与图形同步变化，适合做换算前的数量理解。"
+        }
+      ],
+      "editorialStandard": "teacher-first-v1",
+      "radarSnapshots": [
+        {
+          "id": "jiangsu-wusi-cases-2026",
+          "title": "江苏“五四杯”初中青年教师教育教学案例征集",
+          "provinces": [
+            "江苏"
+          ],
+          "city": "江苏省内",
+          "level": "省域征集",
+          "kind": "教学案例征集",
+          "target": "江苏初中教师；活动面向青年教师，具体资格以主办方确认为准",
+          "schoolStages": [
+            "初中"
+          ],
+          "eligibilityNote": "面向江苏初中教师；小学、高中教师不据此推定符合资格。",
+          "summary": "含 AI 教学案例、班会等类别；免费征集，11 月 8 日截止。",
+          "deliverables": [
+            "AI 教学实践案例文本，不超过 4000 字"
+          ],
+          "requirements": [
+            "原创、未发表或在其他活动获奖；匿名文档，学生使用化名。",
+            "扫码注册报名；投稿授权范围须阅读通知。"
+          ],
+          "dates": [
+            {
+              "label": "报名与案例文档上传截止",
+              "date": "2026-11-08",
+              "kind": "deadline"
+            },
+            {
+              "label": "结果公布（具体日期未定）",
+              "month": "2026-12",
+              "kind": "event"
+            }
+          ],
+          "source": {
+            "name": "江苏教育报刊总社通知 · 迎春中学公开转载",
+            "url": "https://yczx.wxedu.net/jyky/tzgg4/content_310009",
+            "publishedDate": "2026-09-07",
+            "originalNoticeDate": "2026-08-24",
+            "verifiedAt": "2026-10-27",
+            "verification": "verified"
+          },
+          "reviewedAt": "2026-10-27",
+          "status": "published"
+        },
+        {
+          "id": "changzhou-primary-pe-skills-2026",
+          "title": "2026 年常州市小学体育与健康青年教师教学基本功比赛",
+          "provinces": [
+            "江苏"
+          ],
+          "city": "常州",
+          "level": "市级",
+          "kind": "教师教学基本功",
+          "target": "常州市各辖市（区）推荐的小学体育与健康在职教师，39 周岁以下且具备相应教师资格",
+          "schoolStages": [
+            "小学"
+          ],
+          "eligibilityNote": "仅面向常州地区相应教师，由各辖市（区）选拔推荐，每区（市）3人；年龄要求为39周岁以下，近三年无教学事故及师德失范行为，不是面向全国的个人自由报名。",
+          "summary": "11月25日前由区（市）报送；12月上旬比赛，具体日程待通知。含融入AI的健康教育设计与课件制作、模拟授课、专业技能和实践课。",
+          "deliverables": [
+            "区（市）统一报送加盖公章的报名表纸质稿，以及选拔情况通报与公示",
+            "电子报名表与大单元教学计划按通知打包报送；现场另交匿名的教学设计、学时教案和课件"
+          ],
+          "requirements": [
+            "由辖市（区）统一推荐，先向当地教师发展机构确认选拔安排。",
+            "现场健康教育设计与课件制作共40分钟，需体现AI辅助思路；模拟授课不超过8分钟。",
+            "实践课现场展示20分钟；具体专项内容和附件以原通知为准。"
+          ],
+          "dates": [
+            {
+              "label": "区（市）统一报送报名表等材料截止",
+              "date": "2026-11-25",
+              "kind": "deadline"
+            },
+            {
+              "label": "12月上旬比赛，具体日期与地点另行通知",
+              "month": "2026-12",
+              "kind": "event",
+              "precision": "month"
+            }
+          ],
+          "source": {
+            "name": "常州市教育科学研究院",
+            "url": "https://jky.czedu.cn/html/article20000839.html",
+            "publishedDate": "2026-10-12",
+            "verifiedAt": "2026-10-28",
+            "verification": "verified"
+          },
+          "status": "published",
+          "reviewedAt": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-01",
+      "date": "2026-11-01",
+      "status": "published",
+      "reviewedAt": "2026-11-01",
+      "editorialStandard": "teacher-first-v1",
+      "title": "一页勾股定理课件，怎样加一道可点击的小测",
+      "intro": "实际打开CourseForge的勾股定理示例，分别试答错误选项6和正确选项5。先看真实画面与反馈，再判断它是否适合自己的课堂。",
+      "headlineId": "courseforge-pythagoras",
+      "headlineTitle": "课件讲完定理，下一步让学生选一选",
+      "headlineDeck": "一道3、4、5的小测，展示怎样把静态讲解接到可点击反馈；解题理由仍由教师和学生一起补全。",
+      "editorNote": "这是开源示例课件的实测拆解，不是真实班级效果报告。本轮未连接WorkBuddy，也未验证PPT导入、离线导出或AI生成速度。",
+      "quickReads": [
+        {
+          "itemId": "courseforge-pythagoras",
+          "text": "从示例画廊打开“勾股定理”，进入第2页放映；实测6标红、重新放映后5标绿。"
+        }
+      ],
+      "items": [
+        {
+          "id": "courseforge-pythagoras",
+          "type": "case",
+          "caseKind": "开源作品拆解",
+          "title": "勾股定理示例：把讲解和一道自测放在同一页",
+          "author": "CourseForge / nmww",
+          "summary": "先打开示例画廊中的“勾股定理”，进入第2页放映。题目给定直角边3和4，要求选择斜边；实测选择6标红，重新进入放映后选择5标绿。",
+          "problem": "老师讲过公式后，需要让学生先作答，再检查是否会区分直角边与斜边；静态课件不方便直接呈现选择反馈。",
+          "takeaway": "可先让学生说理由再点答案。示例仅提供颜色反馈，教师还需追问为什么是5，以及3²+4²=25怎样推出斜边长度。",
+          "subjects": [
+            "初中数学"
+          ],
+          "tools": [
+            {
+              "name": "HTML / CSS / JavaScript",
+              "evidenceUrl": "https://github.com/nmww/courseforge/blob/main/course-editor/index.html"
+            },
+            {
+              "name": "iframe内嵌选择题组件",
+              "evidenceUrl": "https://github.com/nmww/courseforge/blob/main/course-editor/index.html"
+            }
+          ],
+          "methodNote": "公开源码含勾股定理示例和mkQuiz选择题实现。作者提供WorkBuddy连接入口，但本轮未连接；本示例生成所用AI模型、提示词、首发日期及课堂成效未核实。",
+          "steps": [
+            "打开编辑器的“示例画廊”，选择“勾股定理”，进入第2页。",
+            "点击“放映”，先让学生预测并解释，再选择答案观察反馈。",
+            "修改成自己的例题后，核对正确答案和反馈，并补充推理过程。"
+          ],
+          "work": {
+            "url": "https://nmww.github.io/courseforge/",
+            "verification": "opened",
+            "checkedAt": "2026-11-01",
+            "accessNote": "核实时无需登录，已实际打开示例画廊与勾股定理第2页放映，分别核对6的红色反馈和5的绿色反馈；只验证该示例基本交互，未验证PPT导入、离线导出或本机WorkBuddy。",
+            "preview": {
+              "path": "/assets/daily-courseforge-pythagoras.png",
+              "alt": "CourseForge勾股定理示例的实际放映画面：直角边3和4，点击斜边答案5后选项显示绿色",
+              "caption": "2026.11.01实际作答截图；原始1280×720画面，未改动课件内容。",
+              "creditUrl": "https://github.com/nmww/courseforge",
+              "licenseUrl": "https://github.com/nmww/courseforge/blob/main/LICENSE",
+              "licenseLabel": "MIT",
+              "creditText": "© 2026 The CourseForge authors / nmww"
+            }
+          },
+          "source": {
+            "name": "CourseForge作者公开项目、在线示例与源码",
+            "url": "https://github.com/nmww/courseforge",
+            "publishedDate": null,
+            "publishedDateNote": "项目未单列该示例首发日期",
+            "verifiedAt": "2026-11-01",
+            "verification": "verified"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07",
+      "date": "2026-11-07",
+      "status": "published",
+      "reviewedAt": "2026-11-07",
+      "editorialStandard": "teacher-first-v1",
+      "title": "一份空气实验课件、懂了鸭入口和教师积分领取指南",
+      "intro": "今天分四栏阅读：看一份可操作的科学课件，了解懂了鸭的创作入口，核对WorkBuddy教师积分条件，再挑一节图文备课教程动手做。",
+      "headlineId": "kidslab-air-garage",
+      "headlineTitle": "看不见的空气，怎样让学生先猜、再验证？",
+      "headlineDeck": "把杯子斜着放进水里，再竖直扣下去。真实交互画面在下方，工具、领取条件与教程各自成栏。",
+      "editorNote": "这是11月7日核实的精选，不表示全部内容在今天首发。作品为开源模拟实验；图文教程、工具介绍与权益规则分别标注核实范围，未声称实测AI生成或课堂提分。",
+      "quickReads": [
+        {
+          "itemId": "dongleya-entry",
+          "text": "懂了鸭官方入口可打开，创作需登录，费用与开放范围以登录后页面为准。"
+        },
+        {
+          "itemId": "workbuddy-teacher-points",
+          "text": "WorkBuddy教育公益版：教师认证通过后每月2000积分，先核对资格与领取步骤。"
+        },
+        {
+          "itemId": "zhiqiao-lesson-design",
+          "text": "备课教程是可直接阅读的第三方图文材料，含教案、课件和自检步骤。"
+        }
+      ],
+      "items": [
+        {
+          "id": "kidslab-air-garage",
+          "type": "case",
+          "section": "works",
+          "caseKind": "开源作品拆解",
+          "title": "空气车库：先预测纸巾会不会湿，再点开对照实验",
+          "author": "KidsLab / jamiesun 与项目贡献者",
+          "summary": "实际操作了杯子入水：斜放后页面显示纸巾湿了，竖直扣入后提示纸巾仍干燥并进入下一关；气球天平中扎破左侧气球后，页面显示右边更重。",
+          "problem": "空气看不见，学生容易只记结论。可用两种放杯方式作对照，让学生先预测再解释空气是否占据空间。",
+          "takeaway": "适合小学科学导入或复习。它是简化模拟，气球天平的“格”不是实测克数；教师需结合真实实验讨论条件与差异。",
+          "subjects": [
+            "小学科学"
+          ],
+          "tools": [
+            {
+              "name": "HTML / CSS / JavaScript",
+              "evidenceUrl": "https://github.com/talkincode/kidslab/tree/main/courseware/air-garage"
+            }
+          ],
+          "methodNote": "已核对公开程序源码和内容许可；具体生成所用AI、提示词、首发日期与真实课堂效果未核实。",
+          "steps": [
+            "打开作品，先让学生预测斜放与竖直倒扣时纸巾的状态。",
+            "先点“斜着扣下去”，观察湿纸巾；再点“竖直扣下去”，比较反馈。",
+            "进入气球天平，扎破一侧后点“看天平”；让学生解释模拟现象，再与实物实验对照。"
+          ],
+          "work": {
+            "url": "https://coollearn.talkincode.net/courseware/air-garage/index.html",
+            "verification": "opened",
+            "checkedAt": "2026-11-07",
+            "accessNote": "无需登录，已操作杯子对照与气球天平；赛车关未完成验收，不作为本次实测结论。",
+            "preview": {
+              "path": "/assets/air-garage-verified-20261107.png",
+              "alt": "空气车库真实操作画面，完成杯子实验后进入气球天平",
+              "caption": "11月7日实际操作截图；完成杯子对照后显示天平工位。",
+              "creditUrl": "https://github.com/talkincode/kidslab",
+              "licenseUrl": "https://github.com/talkincode/kidslab/blob/main/LICENSE-CONTENT.md",
+              "licenseLabel": "CC BY 4.0",
+              "creditText": "© jamiesun / KidsLab contributors；截图未改动作品内容。"
+            }
+          },
+          "source": {
+            "name": "KidsLab作者公开作品与源码",
+            "url": "https://github.com/talkincode/kidslab/tree/main/courseware/air-garage",
+            "publishedDate": null,
+            "publishedDateNote": "作者未单列该作品首发日期",
+            "verifiedAt": "2026-11-07",
+            "verification": "verified"
+          }
+        },
+        {
+          "id": "dongleya-entry",
+          "type": "news",
+          "section": "tools",
+          "title": "懂了鸭：绘本、动画与动态课件的创作入口",
+          "summary": "官方入口介绍了绘本、动画、动态课件和互动内容四类用途。访问后进入登录页，可以看到产品介绍，开始创作需要登录。",
+          "takeaway": "想把知识做成可操作内容的老师可以先收藏入口。本次只核实官网与登录要求，未登录生成作品，不能据此判断生成速度、免费额度或课堂适用效果。",
+          "subjects": [
+            "跨学科"
+          ],
+          "resourceUrl": "https://dongleya.qq.com/",
+          "source": {
+            "name": "懂了鸭官方网站",
+            "url": "https://dongleya.qq.com/",
+            "publishedDate": null,
+            "publishedDateNote": "官方介绍页未标发布日期",
+            "verifiedAt": "2026-11-07",
+            "verification": "verified"
+          }
+        },
+        {
+          "id": "workbuddy-teacher-points",
+          "type": "benefit",
+          "section": "benefit",
+          "title": "WorkBuddy教育公益版：认证教师每月2000积分",
+          "summary": "官方教育页面列出中小学教师认证及积分权益。手机号注册、提交任教信息与教师资格证，审核通过后领取积分。",
+          "takeaway": "先核对个人认证资格。积分属于WorkBuddy平台，与教育此间或讲题鸭积分无关；本次核实公开规则，未替教师申请或验证到账。",
+          "subjects": [
+            "中小学教师"
+          ],
+          "resourceUrl": "https://www.workbuddy.cn/education/",
+          "benefit": {
+            "eligibility": "官方页面面向中小学教师，需完成教师身份审核。",
+            "claimSteps": [
+              "打开官方教育页，进入注册认证入口。",
+              "按官方要求填写任教学校、科目及教师资格证信息。",
+              "等待审核，通过后在WorkBuddy账户核对积分。"
+            ],
+            "deadlineNote": "公开页面未列申请截止日。",
+            "validityNote": "页面列明每月2000积分；具体到账、失效与后续规则以认证页和账户为准。",
+            "costNote": "官方说明教育公益版积分权益免费；本次未购买套餐或测试收费功能。"
+          },
+          "source": {
+            "name": "WorkBuddy教育公益版官方页面",
+            "url": "https://www.workbuddy.cn/education/",
+            "publishedDate": null,
+            "publishedDateNote": "该权益页未标发布日期",
+            "verifiedAt": "2026-11-07",
+            "verification": "verified"
+          }
+        },
+        {
+          "id": "zhiqiao-lesson-design",
+          "type": "lesson",
+          "section": "lessons",
+          "title": "图文实操：把教案、PPT和配套练习分步做好",
+          "summary": "知桥科技公开的M3备课章节，提供教案结构、课件指令与检查清单，并建议把生成、审查和局部修改分开。页面可直接阅读，含《春》等语文学科示例。",
+          "takeaway": "从自己的课题挑一个小任务尝试，再核对课标、事实与学生学情。这是第三方图文自学材料，未实测其生成速度，也不采用页面里的效率承诺。",
+          "subjects": [
+            "小学",
+            "初中",
+            "高中",
+            "跨学科"
+          ],
+          "lesson": {
+            "stage": "中小学",
+            "subject": "跨学科备课；含语文示例",
+            "format": "图文阅读＋自行实操，非视频回放",
+            "watchUrl": "https://zhiqiao.chat/works/workbuddy-practical-manual/modules/m3.html",
+            "accessNote": "已打开完整章节、课件示例与自检部分，无需登录即可阅读；实际调用WorkBuddy需其账户及可用额度。",
+            "dateNote": "章节未标首发日期；本次核实日为11月7日。"
+          },
+          "source": {
+            "name": "知桥科技 · 智教启航公开自学材料",
+            "url": "https://zhiqiao.chat/works/workbuddy-practical-manual/modules/m3.html",
+            "publishedDate": null,
+            "publishedDateNote": "章节未标首发日期",
+            "verifiedAt": "2026-11-07",
+            "verification": "verified"
+          }
+        }
+      ]
+    }
+  ],
+  "competitions": []
+}

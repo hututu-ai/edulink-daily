@@ -1,0 +1,33 @@
+name: Verify and archive EduLink daily
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 1,7,13,19 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: edulink-public-archive
+  cancel-in-progress: false
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1, official
+      - name: Verify public daily and Cloudflare run
+        id: health
+        continue-on-error: true
+        run: node check-and-archive.mjs
+      - name: Save only public verified content and health summary
+        if: always()
+        run: |
+          git config user.name "edulink-editorial-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add published/
+          if ! git diff --cached --quiet; then
+            git commit -m "Archive verified daily and service health"
+            git push
+          fi
+      - name: Fail visibly when verification needs attention
+        if: steps.health.outcome == 'failure'
+        run: exit 1
