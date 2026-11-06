@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-11-06T17:53:50.549Z",
+  "checks": [
+    {
+      "name": "public-body-and-archive",
+      "passed": true,
+      "latestIssue": "2026-11-07"
+    },
+    {
+      "name": "independent-four-section-cloud-run",
+      "passed": true,
+      "date": "2026-11-07",
+      "status": "published",
+      "sections": [
+        {
+          "section": "works",
+          "status": "no-new-content",
+          "checked": 1
+        },
+        {
+          "section": "tools",
+          "status": "qualified",
+          "checked": 1
+        },
+        {
+          "section": "benefit",
+          "status": "no-new-content",
+          "checked": 1
+        },
+        {
+          "section": "lessons",
+          "status": "qualified",
+          "checked": 2
+        }
+      ]
+    }
+  ],
+  "passed": true
+}
