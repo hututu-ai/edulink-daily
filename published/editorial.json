@@ -554,6 +554,7 @@
   "competitions": [],
   "automation": {
     "provider": "cloudflare",
+    "lastSchedule": null,
     "date": "2026-11-07",
     "startedAt": "2026-11-06T17:41:46.226Z",
     "finishedAt": "2026-11-06T17:46:24.031Z",
@@ -605,7 +606,7 @@
   },
   "sourceChecks": {
     "date": "2026-11-07",
-    "checkedAt": "2026-11-06T17:53:52.378Z",
+    "checkedAt": "2026-11-06T18:06:50.779Z",
     "sources": [
       {
         "id": "province-01",
