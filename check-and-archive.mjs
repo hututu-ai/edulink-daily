@@ -14,6 +14,8 @@ try{
 try{
  const status=await(await get(CLOUD+'/status')).json(),now=new Date(),time=new Date(now.getTime()+8*3600000).toISOString().slice(11,16);const expected=time<'08:45'?date(new Date(now.getTime()-86400000)):date(now);
  const passed=status.date>=expected&&Array.isArray(status.sections)&&status.sections.length===4&&status.sections.every(s=>['qualified','no-new-content'].includes(s.status))&&['published','already-published','no-new-content'].includes(status.status);
+ const scheduleExpected=date(now)>='2026-11-07'&&time>='09:15';const schedulePassed=!scheduleExpected||(status.lastSchedule?.source==='cloudflare-cron'&&status.lastSchedule?.date>=date(now));health.checks.push({name:'natural-cron-trigger',passed:schedulePassed,expected:scheduleExpected,lastScheduledAt:status.lastSchedule?.scheduledAt||null});if(!schedulePassed)bad=true;
  health.checks.push({name:'independent-four-section-cloud-run',passed,date:status.date,status:status.status,sections:status.sections?.map(s=>({section:s.section,status:s.status,checked:s.checked}))});if(!passed)bad=true;
-}catch{health.checks.push({name:'independent-four-section-cloud-run',passed:false});bad=true}
+}catch{const scheduleExpected=date(now)>='2026-11-07'&&time>='09:15';const schedulePassed=!scheduleExpected||(status.lastSchedule?.source==='cloudflare-cron'&&status.lastSchedule?.date>=date(now));health.checks.push({name:'natural-cron-trigger',passed:schedulePassed,expected:scheduleExpected,lastScheduledAt:status.lastSchedule?.scheduledAt||null});if(!schedulePassed)bad=true;
+ health.checks.push({name:'independent-four-section-cloud-run',passed:false});bad=true}
 health.passed=!bad;await writeFile('published/health.json',JSON.stringify(health,null,2)+'\n');console.log(JSON.stringify(health));if(bad)process.exitCode=1;
