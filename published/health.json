@@ -1,26 +1,26 @@
 {
-  "checkedAt": "2026-11-08T22:55:01.182Z",
+  "checkedAt": "2026-11-09T08:00:10.382Z",
   "checks": [
     {
       "name": "public-body-and-archive",
       "passed": true,
-      "latestIssue": "2026-11-08"
+      "latestIssue": "2026-11-09"
     },
     {
       "name": "natural-cron-trigger",
       "passed": true,
-      "expected": false,
-      "lastScheduledAt": "2026-11-08T01:00:23.275Z"
+      "expected": true,
+      "lastScheduledAt": "2026-11-09T01:00:23.275Z"
     },
     {
       "name": "independent-four-section-cloud-run",
       "passed": true,
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "status": "published",
       "sections": [
         {
           "section": "works",
-          "status": "qualified",
+          "status": "no-new-content",
           "checked": 1
         },
         {
