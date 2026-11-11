@@ -1,22 +1,22 @@
 {
-  "checkedAt": "2026-11-10T20:28:41.168Z",
+  "checkedAt": "2026-11-11T07:46:27.146Z",
   "checks": [
     {
       "name": "public-body-and-archive",
       "passed": true,
-      "latestIssue": "2026-11-10"
+      "latestIssue": "2026-11-11"
     },
     {
       "name": "natural-cron-trigger",
       "passed": true,
-      "expected": false,
-      "lastScheduledAt": "2026-11-10T01:00:23.275Z"
+      "expected": true,
+      "lastScheduledAt": "2026-11-11T01:00:23.275Z"
     },
     {
       "name": "independent-four-section-cloud-run",
       "passed": true,
-      "date": "2026-11-10",
-      "status": "published",
+      "date": "2026-11-11",
+      "status": "already-published",
       "sections": [
         {
           "section": "works",
@@ -35,7 +35,7 @@
         },
         {
           "section": "lessons",
-          "status": "qualified",
+          "status": "no-new-content",
           "checked": 2
         }
       ]
