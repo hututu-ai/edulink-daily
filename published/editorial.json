@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13",
+  "updatedAt": "2026-11-14",
   "issues": [
     {
       "id": "2026-10-27",
@@ -925,28 +925,101 @@
           }
         }
       ]
+    },
+    {
+      "id": "2026-11-14",
+      "date": "2026-11-14",
+      "status": "published",
+      "reviewedAt": "2026-11-14",
+      "editorialStandard": "teacher-first-v1",
+      "title": "图文教程｜专家与多 Agent：迈向 AI 教研团队",
+      "intro": "分栏精选可操作的教学作品、AI工具、教师权益和公开学习材料。有完整来源与访问证据才收录，不代表内容均在当天首发。",
+      "editorNote": "本期由云端按已审核的来源与验证规则整理；工具入口、权益公开规则与实际作品交互分开核实。无合格内容的栏目隐藏，未登录生成或课堂成效不作推断。",
+      "items": [
+        {
+          "id": "zhiqiao-e1",
+          "type": "lesson",
+          "section": "lessons",
+          "title": "图文教程｜专家与多 Agent：迈向 AI 教研团队",
+          "summary": "已打开知桥科技公开的完整章节，包含一、学习目标、二、新手词典（本模块新增词）、三、学习路径与预计用时。可以直接阅读，再选择适合自己的一项练习。",
+          "takeaway": "这是第三方图文自学材料；按自己的课题动手，并核对事实、课标与学情。实际调用WorkBuddy需要其账户和额度，本次未验证生成速度或课堂成效。",
+          "subjects": [
+            "中小学",
+            "跨学科"
+          ],
+          "lesson": {
+            "stage": "中小学",
+            "subject": "教师AI应用",
+            "format": "图文阅读＋自行实操，非视频回放",
+            "watchUrl": "https://zhiqiao.chat/works/workbuddy-practical-manual/modules/e1.html",
+            "accessNote": "云端已打开完整章节，无需登录阅读；未替用户登录或调用AI生成。",
+            "dateNote": "原章节未标首发日期；本期日期为核实日期。"
+          },
+          "source": {
+            "name": "知桥科技 · 智教启航公开自学材料",
+            "url": "https://zhiqiao.chat/works/workbuddy-practical-manual/modules/e1.html",
+            "publishedDate": null,
+            "publishedDateNote": "章节未标首发日期",
+            "verifiedAt": "2026-11-14",
+            "verification": "verified"
+          }
+        },
+        {
+          "id": "bestteach-equity-teacher-membership",
+          "type": "benefit",
+          "section": "benefit",
+          "title": "乡村和特教教师可申请贝特教 12 个月备课会员",
+          "summary": "杭州涌现引擎数字科技有限公司在贝特教官网开放教育公平计划。符合资格且通过审核的教师，可兑换 12 个月年度专业会员，官方列明每月 140 积分，可用于生成教案、分层练习、教学反思和 PPT 初稿。",
+          "takeaway": "先看申请表要交什么，再决定是否申请。该表要求填写教师资格证号，并上传盖章在职证明和社保或工资记录。官方说明金额可遮挡，须保留姓名和单位供审核。",
+          "subjects": [
+            "乡村学校教师",
+            "特殊教育教师",
+            "教案与课件"
+          ],
+          "resourceUrl": "https://www.bestteach.cn/equity",
+          "benefit": {
+            "eligibility": "在乡镇或村级学校任教、在特殊教育学校或部门任教、或任教学校位于国家乡村振兴重点帮扶县，符合其中一项即可申请，须经运营方审核。",
+            "claimSteps": [
+              "在贝特教官网的教育公平计划页面查看资格、申请材料和隐私政策。",
+              "使用官网表单提交教师和学校信息以及所需在职证明，等待人工审核。",
+              "取得助教码后，登录贝特教，在个人中心的账号设置中兑换。"
+            ],
+            "deadlineNote": "官方页面说明计划在运营期间开放申请，未列固定截止日。",
+            "validityNote": "兑换后有效 12 个月，官方称届时符合条件可再申请，具体资格以届时页面为准。",
+            "costNote": "通过审核后兑换的年度会员免费，官方列明每月 140 积分。申请与兑换均由贝特教处理，实际到账和生成效果未实测。"
+          },
+          "source": {
+            "name": "贝特教官网｜教育公平计划",
+            "url": "https://www.bestteach.cn/equity",
+            "publishedDate": null,
+            "publishedDateNote": "官网申请页未标首发日期。",
+            "verifiedAt": "2026-11-14",
+            "verification": "verified"
+          }
+        }
+      ]
     }
   ],
   "competitions": [],
   "automation": {
     "provider": "cloudflare",
     "lastSchedule": {
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "cron": "0 1 * * *",
-      "scheduledAt": "2026-11-13T01:00:23.275Z",
-      "receivedAt": "2026-11-13T01:00:24.439Z",
+      "scheduledAt": "2026-11-14T01:00:23.275Z",
+      "receivedAt": "2026-11-14T01:00:24.926Z",
       "source": "cloudflare-cron"
     },
-    "date": "2026-11-13",
-    "startedAt": "2026-11-13T00:30:06.598Z",
-    "finishedAt": "2026-11-13T00:32:31.071Z",
-    "status": "published",
-    "publishedIssue": "2026-11-13",
+    "date": "2026-11-14",
+    "startedAt": "2026-11-14T01:00:27.134Z",
+    "finishedAt": "2026-11-14T01:04:42.641Z",
+    "status": "already-published",
+    "publishedIssue": null,
     "sections": [
       {
         "section": "works",
         "status": "no-new-content",
-        "checkedAt": "2026-11-13T00:30:17.422Z",
+        "checkedAt": "2026-11-14T01:00:39.885Z",
         "checked": 1,
         "qualified": 0,
         "published": 0,
@@ -956,7 +1029,7 @@
       {
         "section": "tools",
         "status": "no-new-content",
-        "checkedAt": "2026-11-13T00:30:48.919Z",
+        "checkedAt": "2026-11-14T01:01:17.986Z",
         "checked": 1,
         "qualified": 0,
         "published": 0,
@@ -966,7 +1039,7 @@
       {
         "section": "benefit",
         "status": "no-new-content",
-        "checkedAt": "2026-11-13T00:31:25.580Z",
+        "checkedAt": "2026-11-14T01:03:23.143Z",
         "checked": 1,
         "qualified": 0,
         "published": 0,
@@ -975,11 +1048,11 @@
       },
       {
         "section": "lessons",
-        "status": "qualified",
-        "checkedAt": "2026-11-13T00:32:04.228Z",
-        "checked": 2,
-        "qualified": 1,
-        "published": 1,
+        "status": "no-new-content",
+        "checkedAt": "2026-11-14T01:04:11.730Z",
+        "checked": 1,
+        "qualified": 0,
+        "published": 0,
         "failed": 0,
         "reviewRequired": 0
       }
@@ -987,8 +1060,8 @@
     "note": "四栏目分别检查；没有新内容时保留上一期。"
   },
   "sourceChecks": {
-    "date": "2026-11-13",
-    "checkedAt": "2026-11-13T20:29:53.206Z",
+    "date": "2026-11-14",
+    "checkedAt": "2026-11-14T07:37:51.113Z",
     "sources": [
       {
         "id": "province-01",
@@ -996,7 +1069,7 @@
         "province": "北京",
         "url": "https://jw.beijing.gov.cn/tzgg/",
         "status": "read",
-        "checkedAt": "2026-11-13T00:30:09.665Z",
+        "checkedAt": "2026-11-14T00:30:11.084Z",
         "candidates": 0
       },
       {
@@ -1005,7 +1078,7 @@
         "province": "天津",
         "url": "https://jy.tj.gov.cn/",
         "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.754Z",
+        "checkedAt": "2026-11-14T00:30:09.542Z",
         "candidates": 0
       },
       {
@@ -1014,7 +1087,7 @@
         "province": "河北",
         "url": "https://www.hee.gov.cn/",
         "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.134Z",
+        "checkedAt": "2026-11-14T00:30:10.169Z",
         "candidates": 0
       },
       {
@@ -1022,8 +1095,8 @@
         "name": "山西省教育厅",
         "province": "山西",
         "url": "https://jyt.shanxi.gov.cn",
-        "status": "read",
-        "checkedAt": "2026-11-13T00:30:09.473Z",
+        "status": "failed",
+        "checkedAt": "2026-11-14T00:30:10.839Z",
         "candidates": 0
       },
       {
@@ -1032,7 +1105,7 @@
         "province": "内蒙古",
         "url": "https://jyt.nmg.gov.cn/",
         "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.331Z",
+        "checkedAt": "2026-11-14T00:30:09.333Z",
         "candidates": 0
       },
       {
@@ -1041,7 +1114,7 @@
         "province": "辽宁",
         "url": "https://jyt.ln.gov.cn/",
         "status": "read",
-        "checkedAt": "2026-11-13T00:30:09.182Z",
+        "checkedAt": "2026-11-14T00:30:10.063Z",
         "candidates": 0
       },
       {
@@ -1049,8 +1122,8 @@
         "name": "吉林省教育厅",
         "province": "吉林",
         "url": "https://jyt.jl.gov.cn/",
-        "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.432Z",
+        "status": "read",
+        "checkedAt": "2026-11-14T00:30:10.565Z",
         "candidates": 0
       },
       {
@@ -1059,7 +1132,7 @@
         "province": "黑龙江",
         "url": "https://jyt.hlj.gov.cn/",
         "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.743Z",
+        "checkedAt": "2026-11-14T00:30:09.711Z",
         "candidates": 0
       },
       {
@@ -1068,7 +1141,7 @@
         "province": "上海",
         "url": "https://edu.sh.gov.cn/",
         "status": "read",
-        "checkedAt": "2026-11-13T00:30:09.178Z",
+        "checkedAt": "2026-11-14T00:30:10.739Z",
         "candidates": 0
       },
       {
@@ -1077,7 +1150,7 @@
         "province": "江苏",
         "url": "https://jyt.jiangsu.gov.cn/",
         "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.734Z",
+        "checkedAt": "2026-11-14T00:30:10.706Z",
         "candidates": 0
       },
       {
@@ -1086,7 +1159,7 @@
         "province": "浙江",
         "url": "https://jyt.zj.gov.cn/",
         "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.733Z",
+        "checkedAt": "2026-11-14T00:30:09.648Z",
         "candidates": 0
       },
       {
@@ -1095,7 +1168,7 @@
         "province": "安徽",
         "url": "https://jyt.ah.gov.cn/",
         "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.146Z",
+        "checkedAt": "2026-11-14T00:30:10.596Z",
         "candidates": 0
       },
       {
@@ -1104,7 +1177,7 @@
         "province": "福建",
         "url": "https://jyt.fujian.gov.cn/",
         "status": "read",
-        "checkedAt": "2026-11-13T00:30:09.629Z",
+        "checkedAt": "2026-11-14T00:30:10.604Z",
         "candidates": 0
       },
       {
@@ -1113,7 +1186,7 @@
         "province": "江西",
         "url": "https://jyt.jiangxi.gov.cn/",
         "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.646Z",
+        "checkedAt": "2026-11-14T00:30:09.558Z",
         "candidates": 0
       },
       {
@@ -1122,7 +1195,7 @@
         "province": "山东",
         "url": "https://edu.shandong.gov.cn/",
         "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.176Z",
+        "checkedAt": "2026-11-14T00:30:10.629Z",
         "candidates": 0
       },
       {
@@ -1131,7 +1204,7 @@
         "province": "河南",
         "url": "https://jyt.henan.gov.cn/",
         "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.563Z",
+        "checkedAt": "2026-11-14T00:30:10.345Z",
         "candidates": 0
       },
       {
@@ -1140,7 +1213,7 @@
         "province": "湖北",
         "url": "https://jyt.hubei.gov.cn/",
         "status": "read",
-        "checkedAt": "2026-11-13T00:30:09.643Z",
+        "checkedAt": "2026-11-14T00:30:09.531Z",
         "candidates": 0
       },
       {
@@ -1149,7 +1222,7 @@
         "province": "湖南",
         "url": "https://jyt.hunan.gov.cn/",
         "status": "read",
-        "checkedAt": "2026-11-13T00:30:09.148Z",
+        "checkedAt": "2026-11-14T00:30:10.613Z",
         "candidates": 0
       },
       {
@@ -1157,8 +1230,8 @@
         "name": "广东省教育厅",
         "province": "广东",
         "url": "https://edu.gd.gov.cn/",
-        "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.599Z",
+        "status": "read",
+        "checkedAt": "2026-11-14T00:30:10.406Z",
         "candidates": 0
       },
       {
@@ -1167,7 +1240,7 @@
         "province": "广西",
         "url": "https://jyt.gxzf.gov.cn/",
         "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.533Z",
+        "checkedAt": "2026-11-14T00:30:09.586Z",
         "candidates": 0
       },
       {
@@ -1176,7 +1249,7 @@
         "province": "海南",
         "url": "https://edu.hainan.gov.cn/",
         "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.188Z",
+        "checkedAt": "2026-11-14T00:30:10.552Z",
         "candidates": 0
       },
       {
@@ -1185,7 +1258,7 @@
         "province": "重庆",
         "url": "https://jw.cq.gov.cn/",
         "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.443Z",
+        "checkedAt": "2026-11-14T00:30:10.270Z",
         "candidates": 0
       },
       {
@@ -1194,7 +1267,7 @@
         "province": "四川",
         "url": "https://edu.sc.gov.cn/",
         "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.571Z",
+        "checkedAt": "2026-11-14T00:30:09.670Z",
         "candidates": 0
       },
       {
@@ -1203,7 +1276,7 @@
         "province": "贵州",
         "url": "https://jyt.guizhou.gov.cn/",
         "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.140Z",
+        "checkedAt": "2026-11-14T00:30:10.418Z",
         "candidates": 0
       },
       {
@@ -1212,7 +1285,7 @@
         "province": "云南",
         "url": "https://jyt.yn.gov.cn/",
         "status": "read",
-        "checkedAt": "2026-11-13T00:30:09.410Z",
+        "checkedAt": "2026-11-14T00:30:10.305Z",
         "candidates": 0
       },
       {
@@ -1221,7 +1294,7 @@
         "province": "西藏",
         "url": "https://edu.xizang.gov.cn/",
         "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.568Z",
+        "checkedAt": "2026-11-14T00:30:09.464Z",
         "candidates": 0
       },
       {
@@ -1230,7 +1303,7 @@
         "province": "陕西",
         "url": "https://jyt.shaanxi.gov.cn/",
         "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.191Z",
+        "checkedAt": "2026-11-14T00:30:10.520Z",
         "candidates": 0
       },
       {
@@ -1239,7 +1312,7 @@
         "province": "甘肃",
         "url": "https://jyt.gansu.gov.cn/",
         "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.519Z",
+        "checkedAt": "2026-11-14T00:30:10.299Z",
         "candidates": 0
       },
       {
@@ -1248,7 +1321,7 @@
         "province": "青海",
         "url": "https://jyt.qinghai.gov.cn/",
         "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.551Z",
+        "checkedAt": "2026-11-14T00:30:09.467Z",
         "candidates": 0
       },
       {
@@ -1257,7 +1330,7 @@
         "province": "宁夏",
         "url": "https://jyt.nx.gov.cn/index.html",
         "status": "read",
-        "checkedAt": "2026-11-13T00:30:09.261Z",
+        "checkedAt": "2026-11-14T00:30:10.451Z",
         "candidates": 0
       },
       {
@@ -1266,7 +1339,7 @@
         "province": "新疆",
         "url": "https://jyt.xinjiang.gov.cn/",
         "status": "read",
-        "checkedAt": "2026-11-13T00:30:09.505Z",
+        "checkedAt": "2026-11-14T00:30:11.159Z",
         "candidates": 0
       },
       {
@@ -1275,7 +1348,7 @@
         "province": "全国",
         "url": "https://www.moe.gov.cn/",
         "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.336Z",
+        "checkedAt": "2026-11-14T00:30:09.462Z",
         "candidates": 0
       },
       {
@@ -1284,7 +1357,7 @@
         "province": "江苏",
         "url": "https://jyj.suzhou.gov.cn/",
         "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.157Z",
+        "checkedAt": "2026-11-14T00:30:10.227Z",
         "candidates": 0
       },
       {
@@ -1293,7 +1366,7 @@
         "province": "陕西",
         "url": "https://jyj.baoji.gov.cn/",
         "status": "read",
-        "checkedAt": "2026-11-13T00:30:09.399Z",
+        "checkedAt": "2026-11-14T00:30:10.176Z",
         "candidates": 0
       },
       {
@@ -1302,7 +1375,7 @@
         "province": "全国",
         "url": "https://www.ncet.edu.cn/",
         "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.352Z",
+        "checkedAt": "2026-11-14T00:30:09.534Z",
         "candidates": 0
       },
       {
@@ -1311,7 +1384,7 @@
         "province": "江苏",
         "url": "https://jky.czedu.cn/html/node232973.html",
         "status": "read",
-        "checkedAt": "2026-11-13T00:30:09.132Z",
+        "checkedAt": "2026-11-14T00:30:10.445Z",
         "candidates": 0
       },
       {
@@ -1320,7 +1393,7 @@
         "province": "福建",
         "url": "https://jyt.fujian.gov.cn/xxgk/zywj/",
         "status": "read",
-        "checkedAt": "2026-11-13T00:30:09.298Z",
+        "checkedAt": "2026-11-14T00:30:09.937Z",
         "candidates": 0
       },
       {
@@ -1329,7 +1402,7 @@
         "province": "山东",
         "url": "https://basic.sd.smartedu.cn/cams/cams/home/activity",
         "status": "read",
-        "checkedAt": "2026-11-13T00:30:09.300Z",
+        "checkedAt": "2026-11-14T00:30:09.515Z",
         "candidates": 0
       },
       {
@@ -1337,8 +1410,8 @@
         "name": "上海市浦东教育发展研究院 · 教育科研",
         "province": "上海",
         "url": "https://jfy.pudong-edu.sh.cn/Web/PDJFY/4560064-4560000018795.htm?Page=7",
-        "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.183Z",
+        "status": "read",
+        "checkedAt": "2026-11-14T00:30:10.053Z",
         "candidates": 0
       },
       {
@@ -1347,7 +1420,7 @@
         "province": "辽宁",
         "url": "https://www.dlteacher.com/",
         "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.301Z",
+        "checkedAt": "2026-11-14T00:30:11.105Z",
         "candidates": 0
       },
       {
@@ -1356,7 +1429,7 @@
         "province": "浙江",
         "url": "https://www.zjstm.org/",
         "status": "read",
-        "checkedAt": "2026-11-13T00:30:09.443Z",
+        "checkedAt": "2026-11-14T00:30:09.353Z",
         "candidates": 0
       },
       {
@@ -1365,7 +1438,7 @@
         "province": "浙江",
         "url": "https://jyyjy.lcedu.net.cn/col/col10799/index.html",
         "status": "read",
-        "checkedAt": "2026-11-13T00:30:09.228Z",
+        "checkedAt": "2026-11-14T00:30:10.132Z",
         "candidates": 0
       },
       {
@@ -1374,7 +1447,7 @@
         "province": "湖北",
         "url": "https://jyt.hubei.gov.cn/zfxxgk/zc_GK2020/qtzdgkwj_GK2020/",
         "status": "read",
-        "checkedAt": "2026-11-13T00:30:09.269Z",
+        "checkedAt": "2026-11-14T00:30:09.989Z",
         "candidates": 0
       },
       {
@@ -1383,7 +1456,7 @@
         "province": "广东",
         "url": "https://gzteacher.com/",
         "status": "read",
-        "checkedAt": "2026-11-13T00:30:09.331Z",
+        "checkedAt": "2026-11-14T00:30:09.318Z",
         "candidates": 0
       },
       {
@@ -1392,7 +1465,7 @@
         "province": "宁夏",
         "url": "https://show.nxeduyun.com/cams/home/activity",
         "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.134Z",
+        "checkedAt": "2026-11-14T00:30:10.125Z",
         "candidates": 0
       },
       {
@@ -1400,8 +1473,8 @@
         "name": "重庆市教育学会 · 通知",
         "province": "重庆",
         "url": "https://www.cqjyxh.com/tzgg/tz.htm",
-        "status": "failed",
-        "checkedAt": "2026-11-13T00:30:09.294Z",
+        "status": "read",
+        "checkedAt": "2026-11-14T00:30:10.055Z",
         "candidates": 0
       },
       {
@@ -1410,7 +1483,7 @@
         "province": "北京",
         "url": "https://www.bjsc.net.cn/bjsc/bgxx/tzgg/qsnhd/",
         "status": "read",
-        "checkedAt": "2026-11-13T00:30:09.030Z",
+        "checkedAt": "2026-11-14T00:30:09.456Z",
         "candidates": 0
       },
       {
@@ -1419,7 +1492,7 @@
         "province": "河北",
         "url": "https://shenbao.hbte.com.cn/",
         "status": "read",
-        "checkedAt": "2026-11-13T00:30:09.239Z",
+        "checkedAt": "2026-11-14T00:30:10.268Z",
         "candidates": 0
       }
     ]
