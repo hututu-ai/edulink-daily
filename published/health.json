@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-24T00:55:04.930Z",
+  "checkedAt": "2026-11-24T10:58:28.572Z",
   "checks": [
     {
       "name": "public-body-and-archive",
@@ -9,8 +9,8 @@
     {
       "name": "natural-cron-trigger",
       "passed": true,
-      "expected": false,
-      "lastScheduledAt": "2026-11-24T00:30:01.351Z"
+      "expected": true,
+      "lastScheduledAt": "2026-11-24T01:00:23.275Z"
     },
     {
       "name": "independent-four-section-cloud-run",

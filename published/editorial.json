@@ -1084,9 +1084,9 @@
     "provider": "cloudflare",
     "lastSchedule": {
       "date": "2026-11-24",
-      "cron": "30 0 * * *",
-      "scheduledAt": "2026-11-24T00:30:01.351Z",
-      "receivedAt": "2026-11-24T00:30:03.032Z",
+      "cron": "0 1 * * *",
+      "scheduledAt": "2026-11-24T01:00:23.275Z",
+      "receivedAt": "2026-11-24T01:00:24.657Z",
       "source": "cloudflare-cron"
     },
     "date": "2026-11-24",
@@ -1140,7 +1140,7 @@
   },
   "sourceChecks": {
     "date": "2026-11-24",
-    "checkedAt": "2026-11-24T00:55:07.702Z",
+    "checkedAt": "2026-11-24T10:58:31.070Z",
     "sources": [
       {
         "id": "province-01",
