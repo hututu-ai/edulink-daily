@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-27T09:42:12.297Z",
+  "checkedAt": "2026-11-27T21:59:29.623Z",
   "checks": [
     {
       "name": "public-body-and-archive",
@@ -9,7 +9,7 @@
     {
       "name": "natural-cron-trigger",
       "passed": true,
-      "expected": true,
+      "expected": false,
       "lastScheduledAt": "2026-11-27T01:00:23.275Z"
     },
     {
